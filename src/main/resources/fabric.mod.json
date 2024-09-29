@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "examplemod",
+  "version": "1.0.0",
+  "name": "Example Mod",
+  "description": "Mod to increase player hitbox via chat command",
+  "authors": [
+    "Author Name"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/examplemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.ExampleMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric-command-api-v1": "*",
+    "minecraft": "1.17.1"
+  }
+}
