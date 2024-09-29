@@ -1,9 +1,14 @@
-# Fabric Example Mod
+# LunarClient Hitbox / use a fabric 1.17.1
 
-## Setup
+install Intel Ij, jdk 16.
+write in console:
+./gradlew build or gradlew build
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+open LunarHitBox-1.17.1/build/libs
+your mod - fabric-example-mod-1.0.0.jar
+move this file in .minecraft/mods
+open minecraft (fabric 1.17.1 or lunarclient fabric 1.17.1)
 
-## License
+press on H.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Good game!
